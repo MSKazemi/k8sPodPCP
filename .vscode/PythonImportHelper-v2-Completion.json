@@ -1,0 +1,760 @@
+[
+    {
+        "label": "argparse,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse.",
+        "description": "argparse.",
+        "detail": "argparse.",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "watch",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "list_and_emit_initial",
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "isExtraImport": true,
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedDict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigException",
+        "importPath": "kubernetes.config.config_exception",
+        "description": "kubernetes.config.config_exception",
+        "isExtraImport": true,
+        "detail": "kubernetes.config.config_exception",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigException",
+        "importPath": "kubernetes.config.config_exception",
+        "description": "kubernetes.config.config_exception",
+        "isExtraImport": true,
+        "detail": "kubernetes.config.config_exception",
+        "documentation": {}
+    },
+    {
+        "label": "ApiException",
+        "importPath": "kubernetes.client.exceptions",
+        "description": "kubernetes.client.exceptions",
+        "isExtraImport": true,
+        "detail": "kubernetes.client.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "InferenceRequest",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "ContainerSpec",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnTransformer",
+        "importPath": "sklearn.compose",
+        "description": "sklearn.compose",
+        "isExtraImport": true,
+        "detail": "sklearn.compose",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "dump",
+        "importPath": "joblib",
+        "description": "joblib",
+        "isExtraImport": true,
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "importPath": "joblib",
+        "description": "joblib",
+        "isExtraImport": true,
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "KNeighborsRegressor",
+        "importPath": "sklearn.neighbors",
+        "description": "sklearn.neighbors",
+        "isExtraImport": true,
+        "detail": "sklearn.neighbors",
+        "documentation": {}
+    },
+    {
+        "label": "GroupKFold",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "canon_workload",
+        "kind": 2,
+        "importPath": "join_features_labels",
+        "description": "join_features_labels",
+        "peekOfCode": "def canon_workload(kind: str, name: str) -> tuple[str, str]:\n    \"\"\"Return (canon_kind, canon_name) suitable to match Deployment features.\"\"\"\n    kind = (kind or \"\").strip()\n    name = (name or \"\").strip()\n    if kind == \"Deployment\":\n        return \"Deployment\", name\n    if kind == \"ReplicaSet\":\n        m = RS_HASH.match(name)\n        return (\"Deployment\", m.group(\"base\")) if m else (\"Deployment\", name)\n    if kind == \"Pod\":",
+        "detail": "join_features_labels",
+        "documentation": {}
+    },
+    {
+        "label": "norm_keys",
+        "kind": 2,
+        "importPath": "join_features_labels",
+        "description": "join_features_labels",
+        "peekOfCode": "def norm_keys(df: pd.DataFrame) -> pd.DataFrame:\n    df = df.copy()\n    for c in (\"namespace\", \"workload_kind\", \"workload_name\"):\n        if c in df.columns:\n            df[c] = df[c].astype(str).str.strip()\n    if \"namespace\" in df.columns:\n        df[\"namespace\"] = df[\"namespace\"].str.lower()\n    return df\ndef main():\n    ap = argparse.ArgumentParser()",
+        "detail": "join_features_labels",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "join_features_labels",
+        "description": "join_features_labels",
+        "peekOfCode": "def main():\n    ap = argparse.ArgumentParser()\n    ap.add_argument(\"--features\", required=True)\n    ap.add_argument(\"--labels\", required=True)\n    ap.add_argument(\"--out\", required=True)\n    args = ap.parse_args()\n    F = pd.read_parquet(args.features)   # expects: namespace, workload_kind, workload_name, ...\n    L = pd.read_parquet(args.labels)     # expects: namespace, workload_kind, workload_name, ...\n    F = norm_keys(F)\n    L = norm_keys(L)",
+        "detail": "join_features_labels",
+        "documentation": {}
+    },
+    {
+        "label": "RS_HASH",
+        "kind": 5,
+        "importPath": "join_features_labels",
+        "description": "join_features_labels",
+        "peekOfCode": "RS_HASH = re.compile(r\"^(?P<base>.+)-[a-f0-9]{9,}$\")          # e.g. myapp-75b8db778\nPOD_FROM_RS = re.compile(r\"^(?P<base>.+)-[a-f0-9]{9,}-[a-z0-9]{5}$\")  # myapp-75b8db778-abcde\ndef canon_workload(kind: str, name: str) -> tuple[str, str]:\n    \"\"\"Return (canon_kind, canon_name) suitable to match Deployment features.\"\"\"\n    kind = (kind or \"\").strip()\n    name = (name or \"\").strip()\n    if kind == \"Deployment\":\n        return \"Deployment\", name\n    if kind == \"ReplicaSet\":\n        m = RS_HASH.match(name)",
+        "detail": "join_features_labels",
+        "documentation": {}
+    },
+    {
+        "label": "POD_FROM_RS",
+        "kind": 5,
+        "importPath": "join_features_labels",
+        "description": "join_features_labels",
+        "peekOfCode": "POD_FROM_RS = re.compile(r\"^(?P<base>.+)-[a-f0-9]{9,}-[a-z0-9]{5}$\")  # myapp-75b8db778-abcde\ndef canon_workload(kind: str, name: str) -> tuple[str, str]:\n    \"\"\"Return (canon_kind, canon_name) suitable to match Deployment features.\"\"\"\n    kind = (kind or \"\").strip()\n    name = (name or \"\").strip()\n    if kind == \"Deployment\":\n        return \"Deployment\", name\n    if kind == \"ReplicaSet\":\n        m = RS_HASH.match(name)\n        return (\"Deployment\", m.group(\"base\")) if m else (\"Deployment\", name)",
+        "detail": "join_features_labels",
+        "documentation": {}
+    },
+    {
+        "label": "get_core_v1_api",
+        "kind": 2,
+        "importPath": "k8s_api",
+        "description": "k8s_api",
+        "peekOfCode": "def get_core_v1_api() -> client.CoreV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning CoreV1Api client.\")\n    return client.CoreV1Api()\n@lru_cache()\ndef get_apps_v1_api() -> client.AppsV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning AppsV1Api client.\")\n    return client.AppsV1Api()\n@lru_cache()",
+        "detail": "k8s_api",
+        "documentation": {}
+    },
+    {
+        "label": "get_apps_v1_api",
+        "kind": 2,
+        "importPath": "k8s_api",
+        "description": "k8s_api",
+        "peekOfCode": "def get_apps_v1_api() -> client.AppsV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning AppsV1Api client.\")\n    return client.AppsV1Api()\n@lru_cache()\ndef get_networking_v1_api() -> client.NetworkingV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning NetworkingV1Api client.\")\n    return client.NetworkingV1Api()\ndef list_ingress_in_namespace(namespace: str):",
+        "detail": "k8s_api",
+        "documentation": {}
+    },
+    {
+        "label": "get_networking_v1_api",
+        "kind": 2,
+        "importPath": "k8s_api",
+        "description": "k8s_api",
+        "peekOfCode": "def get_networking_v1_api() -> client.NetworkingV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning NetworkingV1Api client.\")\n    return client.NetworkingV1Api()\ndef list_ingress_in_namespace(namespace: str):\n    # Imports are INSIDE the function for robustness in the REPL environment\n    import json\n    from kubernetes import client, config\n    try:\n        # Attempt to load Kubernetes config (local or in-cluster)",
+        "detail": "k8s_api",
+        "documentation": {}
+    },
+    {
+        "label": "list_ingress_in_namespace",
+        "kind": 2,
+        "importPath": "k8s_api",
+        "description": "k8s_api",
+        "peekOfCode": "def list_ingress_in_namespace(namespace: str):\n    # Imports are INSIDE the function for robustness in the REPL environment\n    import json\n    from kubernetes import client, config\n    try:\n        # Attempt to load Kubernetes config (local or in-cluster)\n        try:\n            config.load_kube_config()\n        except config.ConfigException:\n            try:",
+        "detail": "k8s_api",
+        "documentation": {}
+    },
+    {
+        "label": "list_pods_in_namespace",
+        "kind": 2,
+        "importPath": "k8s_api",
+        "description": "k8s_api",
+        "peekOfCode": "def list_pods_in_namespace(namespace: str):\n    # Imports are INSIDE the function for robustness in the REPL environment\n    import json\n    from kubernetes import client, config\n    try:\n        # Load Kubernetes configuration\n        try:\n            config.load_kube_config()\n        except config.ConfigException:\n            try:",
+        "detail": "k8s_api",
+        "documentation": {}
+    },
+    {
+        "label": "SeenCache",
+        "kind": 6,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "class SeenCache:\n    def __init__(self, ttl_sec=10, max_items=5000):\n        self.ttl = ttl_sec\n        self.max = max_items\n        self._d = OrderedDict()\n    def seen(self, key):\n        now = time.time()\n        # purge old\n        while self._d and (now - next(iter(self._d.values())) > self.ttl):\n            self._d.popitem(last=False)",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "parse_cpu_to_mcpu",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def parse_cpu_to_mcpu(q: Optional[str]) -> Optional[int]:\n    if not q:\n        return None\n    s = str(q).strip().lower()\n    if s.endswith(\"m\"):\n        return int(float(s[:-1]))\n    return int(float(s) * 1000)\ndef parse_mem_to_mib(q: Optional[str]) -> Optional[int]:\n    if not q:\n        return None",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "parse_mem_to_mib",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def parse_mem_to_mib(q: Optional[str]) -> Optional[int]:\n    if not q:\n        return None\n    s = str(q).strip().lower()\n    multipliers = {\n        \"k\": 1 / 1024, \"ki\": 1 / 1024,\n        \"m\": 1, \"mi\": 1,\n        \"g\": 1024, \"gi\": 1024,\n        \"t\": 1024 * 1024, \"ti\": 1024 * 1024,\n    }",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "podtemplate_to_request",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def podtemplate_to_request(\n    namespace: str,\n    workload_kind: str,\n    workload_name: str,\n    pod_template: Dict,\n    parent_spec: Optional[Dict] = None,\n) -> InferenceRequest:\n    meta = pod_template.get(\"metadata\", {}) or {}\n    spec = pod_template.get(\"spec\", {}) or {}\n    labels = dict(meta.get(\"labels\", {}) or {})",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "pod_to_request",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def pod_to_request(pod: Dict) -> InferenceRequest:\n    ns = pod[\"metadata\"][\"namespace\"]\n    name = pod[\"metadata\"][\"name\"]\n    labels = dict(pod[\"metadata\"].get(\"labels\") or {})\n    annotations = dict(pod[\"metadata\"].get(\"annotations\") or {})\n    spec = pod.get(\"spec\") or {}\n    # containers\n    containers = [_to_container_spec(c) for c in (spec.get(\"containers\") or [])]\n    init_count = len(spec.get(\"initContainers\") or [])\n    # volumes",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "get_apps_api",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def get_apps_api(kubeconfig: Optional[str], ca_file: Optional[str], verify_ssl: Optional[bool]) -> client.AppsV1Api:\n    _load_k8s_config(kubeconfig)\n    _apply_ssl_settings(ca_file, verify_ssl)\n    return client.AppsV1Api()\n@lru_cache()\ndef get_batch_api(kubeconfig: Optional[str], ca_file: Optional[str], verify_ssl: Optional[bool]) -> client.BatchV1Api:\n    _load_k8s_config(kubeconfig)\n    _apply_ssl_settings(ca_file, verify_ssl)\n    return client.BatchV1Api()\n@lru_cache()",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "get_batch_api",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def get_batch_api(kubeconfig: Optional[str], ca_file: Optional[str], verify_ssl: Optional[bool]) -> client.BatchV1Api:\n    _load_k8s_config(kubeconfig)\n    _apply_ssl_settings(ca_file, verify_ssl)\n    return client.BatchV1Api()\n@lru_cache()\ndef get_core_api(kubeconfig: Optional[str], ca_file: Optional[str], verify_ssl: Optional[bool]) -> client.CoreV1Api:\n    _load_k8s_config(kubeconfig)\n    _apply_ssl_settings(ca_file, verify_ssl)\n    return client.CoreV1Api()\n# ---------- Watchers ----------",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "get_core_api",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def get_core_api(kubeconfig: Optional[str], ca_file: Optional[str], verify_ssl: Optional[bool]) -> client.CoreV1Api:\n    _load_k8s_config(kubeconfig)\n    _apply_ssl_settings(ca_file, verify_ssl)\n    return client.CoreV1Api()\n# ---------- Watchers ----------\ndef stream_inference_requests(\n    kinds: Tuple[str, ...] = (\"Deployment\", \"Job\", \"CronJob\"),\n    namespaces: Optional[List[str]] = None,\n    kubeconfig: Optional[str] = None,\n    ca_file: Optional[str] = None,",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "stream_inference_requests",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def stream_inference_requests(\n    kinds: Tuple[str, ...] = (\"Deployment\", \"Job\", \"CronJob\"),\n    namespaces: Optional[List[str]] = None,\n    kubeconfig: Optional[str] = None,\n    ca_file: Optional[str] = None,\n    verify_ssl: Optional[bool] = None,\n    seen_cache: \"SeenCache\" = None,\n) -> Iterable[InferenceRequest]:\n    \"\"\"\n    Watch K8s and yield InferenceRequest on ADDED/MODIFIED events.",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "list_and_emit_initial",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def list_and_emit_initial(\n    kinds: Tuple[str, ...],\n    namespaces: Optional[List[str]],\n    kubeconfig: Optional[str],\n    ca_file: Optional[str],\n    verify_ssl: Optional[bool],\n    seen_cache: \"SeenCache\",\n) -> Iterable[InferenceRequest]:\n    api_apps = get_apps_api(kubeconfig, ca_file, verify_ssl)\n    api_batch = get_batch_api(kubeconfig, ca_file, verify_ssl)",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "k8s_collect",
+        "description": "k8s_collect",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Collect inference inputs from K8s workloads.\")\n    sub = parser.add_subparsers(dest=\"cmd\", required=True)\n    p_watch = sub.add_parser(\"watch\", help=\"Watch cluster and emit InferenceRequest JSON lines.\")\n    p_watch.add_argument(\"--kinds\", nargs=\"+\", default=[\"Deployment\", \"Job\", \"CronJob\"])\n    p_watch.add_argument(\"--namespaces\", nargs=\"*\", default=None,\n                         help=\"If omitted, watch all namespaces.\")\n    p_watch.add_argument(\"--emit-initial\", action=\"store_true\",\n                         help=\"Emit current objects before watching.\")\n    p_watch.add_argument(\"--output\", help=\"Write NDJSON to this file.\")",
+        "detail": "k8s_collect",
+        "documentation": {}
+    },
+    {
+        "label": "K8sEncoder",
+        "kind": 6,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "class K8sEncoder:\n    use_sbert: bool = True\n    sbert_model_name: str = \"all-MiniLM-L6-v2\"\n    # fitted artifacts\n    scaler: Optional[StandardScaler] = None\n    ohe: Optional[OneHotEncoder] = None\n    sbert_name_: Optional[str] = None\n    # cached model (runtime only)\n    _sbert_model: Any = None\n    def _ensure_sbert(self):",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "cmd_fit",
+        "kind": 2,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "def cmd_fit(args):\n    rows = _read_ndjson(args.input)\n    if not rows:\n        raise SystemExit(\"No rows found in input.\")\n    enc = K8sEncoder(use_sbert=(not args.no_sbert), sbert_model_name=args.sbert_model)\n    enc.fit(rows)\n    os.makedirs(os.path.dirname(args.out), exist_ok=True)\n    enc.save(args.out)\n    print(f\"[OK] saved encoder to {args.out}\")\ndef cmd_transform(args):",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "cmd_transform",
+        "kind": 2,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "def cmd_transform(args):\n    rows = _read_ndjson(args.input)\n    enc = K8sEncoder.load(args.encoder)\n    X, meta = enc.transform(rows)\n    # write Parquet (features as list column)\n    df = meta.copy()\n    df[\"features\"] = [x.astype(np.float32) for x in X]\n    os.makedirs(os.path.dirname(args.out), exist_ok=True)\n    df.to_parquet(args.out, index=False)\n    print(f\"[OK] wrote {len(df)} rows to {args.out}; vector_dim={X.shape[1]}\")",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    sub = p.add_subparsers(dest=\"cmd\", required=True)\n    p_fit = sub.add_parser(\"fit\", help=\"Fit encoder from NDJSON and save joblib.\")\n    p_fit.add_argument(\"--input\", required=True, help=\"NDJSON produced by k8s_collect.py.\")\n    p_fit.add_argument(\"--out\", required=True, help=\"Path to save encoder joblib.\")\n    p_fit.add_argument(\"--no-sbert\", action=\"store_true\", help=\"Disable SBERT text embeddings.\")\n    p_fit.add_argument(\"--sbert-model\", default=\"all-MiniLM-L6-v2\")\n    p_tr = sub.add_parser(\"transform\", help=\"Transform NDJSON using a fitted encoder into Parquet.\")\n    p_tr.add_argument(\"--input\", required=True)",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "TEXT_KEYS_CONTAINER",
+        "kind": 5,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "TEXT_KEYS_CONTAINER = (\"image\", \"command\", \"args\")\nTEXT_KEYS_TOP = (\"workload_kind\", \"workload_name\")\nCAT_KEYS = (\"runtime_class\", \"node_type\")\nNUM_KEYS = (\"gpu_count\", \"init_container_count\", \"sidecar_count\")\n# Per-container resources (flattened as sums; easy baseline)\nRES_KEYS = (\n    \"req_cpu_mcpu\", \"req_mem_mib\",\n    \"lim_cpu_mcpu\", \"lim_mem_mib\"\n)\ndef _sha16(obj: Any) -> str:",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "TEXT_KEYS_TOP",
+        "kind": 5,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "TEXT_KEYS_TOP = (\"workload_kind\", \"workload_name\")\nCAT_KEYS = (\"runtime_class\", \"node_type\")\nNUM_KEYS = (\"gpu_count\", \"init_container_count\", \"sidecar_count\")\n# Per-container resources (flattened as sums; easy baseline)\nRES_KEYS = (\n    \"req_cpu_mcpu\", \"req_mem_mib\",\n    \"lim_cpu_mcpu\", \"lim_mem_mib\"\n)\ndef _sha16(obj: Any) -> str:\n    return hashlib.sha256(json.dumps(obj, sort_keys=True, default=str).encode()).hexdigest()[:16]",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "CAT_KEYS",
+        "kind": 5,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "CAT_KEYS = (\"runtime_class\", \"node_type\")\nNUM_KEYS = (\"gpu_count\", \"init_container_count\", \"sidecar_count\")\n# Per-container resources (flattened as sums; easy baseline)\nRES_KEYS = (\n    \"req_cpu_mcpu\", \"req_mem_mib\",\n    \"lim_cpu_mcpu\", \"lim_mem_mib\"\n)\ndef _sha16(obj: Any) -> str:\n    return hashlib.sha256(json.dumps(obj, sort_keys=True, default=str).encode()).hexdigest()[:16]\ndef _text_bundle(ir: Dict[str, Any]) -> str:",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "NUM_KEYS",
+        "kind": 5,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "NUM_KEYS = (\"gpu_count\", \"init_container_count\", \"sidecar_count\")\n# Per-container resources (flattened as sums; easy baseline)\nRES_KEYS = (\n    \"req_cpu_mcpu\", \"req_mem_mib\",\n    \"lim_cpu_mcpu\", \"lim_mem_mib\"\n)\ndef _sha16(obj: Any) -> str:\n    return hashlib.sha256(json.dumps(obj, sort_keys=True, default=str).encode()).hexdigest()[:16]\ndef _text_bundle(ir: Dict[str, Any]) -> str:\n    \"\"\"Concatenate semantically meaningful strings for SBERT.\"\"\"",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "RES_KEYS",
+        "kind": 5,
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "peekOfCode": "RES_KEYS = (\n    \"req_cpu_mcpu\", \"req_mem_mib\",\n    \"lim_cpu_mcpu\", \"lim_mem_mib\"\n)\ndef _sha16(obj: Any) -> str:\n    return hashlib.sha256(json.dumps(obj, sort_keys=True, default=str).encode()).hexdigest()[:16]\ndef _text_bundle(ir: Dict[str, Any]) -> str:\n    \"\"\"Concatenate semantically meaningful strings for SBERT.\"\"\"\n    parts: List[str] = []\n    # top",
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "prom_range",
+        "kind": 2,
+        "importPath": "kepler_labels",
+        "description": "kepler_labels",
+        "peekOfCode": "def prom_range(prom_base: str, query: str, start: str, end: str, step: str) -> pd.DataFrame:\n    r = requests.get(\n        f\"{prom_base.rstrip('/')}/api/v1/query_range\",\n        params={\"query\": query, \"start\": start, \"end\": end, \"step\": step},\n        timeout=30,\n    )\n    r.raise_for_status()\n    result = r.json().get(\"data\", {}).get(\"result\", [])\n    rows = []\n    for s in result:",
+        "detail": "kepler_labels",
+        "documentation": {}
+    },
+    {
+        "label": "norm_ns_pod",
+        "kind": 2,
+        "importPath": "kepler_labels",
+        "description": "kepler_labels",
+        "peekOfCode": "def norm_ns_pod(df: pd.DataFrame) -> pd.DataFrame:\n    if df is None or df.empty:\n        return df\n    df = df.copy()\n    # namespace\n    if \"namespace\" not in df.columns:\n        for cand in (\"container_namespace\", \"pod_namespace\", \"kubernetes_namespace\", \"ns\"):\n            if cand in df.columns:\n                df.rename(columns={cand: \"namespace\"}, inplace=True)\n                break",
+        "detail": "kepler_labels",
+        "documentation": {}
+    },
+    {
+        "label": "get_owner_map_via_k8s",
+        "kind": 2,
+        "importPath": "kepler_labels",
+        "description": "kepler_labels",
+        "peekOfCode": "def get_owner_map_via_k8s(namespaces=None) -> pd.DataFrame:\n    try:\n        try:\n            k8s_config.load_kube_config()\n        except ConfigException:\n            k8s_config.load_incluster_config()\n    except Exception as e:\n        raise SystemExit(f\"K8s config error: {e}\")\n    v1 = k8s_client.CoreV1Api()\n    pods = v1.list_pod_for_all_namespaces().items",
+        "detail": "kepler_labels",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "kepler_labels",
+        "description": "kepler_labels",
+        "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"--prom\", default=\"http://prometheus.local\", help=\"Prometheus base URL\")\n    p.add_argument(\"--owner-source\", choices=[\"prom\",\"k8s\",\"auto\"], default=\"auto\",\n                   help=\"Where to get pod→owner mapping. 'auto' tries Prom first then K8s API. Default: k8s.\")\n    p.add_argument(\"--mode\", choices=[\"job\",\"window\"], default=\"window\")\n    p.add_argument(\"--start\", required=True)\n    p.add_argument(\"--end\", required=True)\n    p.add_argument(\"--out\", required=True)\n    p.add_argument(\"--step\", default=\"60s\")",
+        "detail": "kepler_labels",
+        "documentation": {}
+    },
+    {
+        "label": "ContainerSpec",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class ContainerSpec(BaseModel):\n    name: str\n    image: str\n    command: Optional[List[str]] = None\n    args: Optional[List[str]] = None\n    req_cpu_mcpu: Optional[int] = None\n    req_mem_mib: Optional[int] = None\n    lim_cpu_mcpu: Optional[int] = None\n    lim_mem_mib: Optional[int] = None\nclass InferenceRequest(BaseModel):",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "InferenceRequest",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class InferenceRequest(BaseModel):\n    schema_version: str = Field(default=\"v1\")\n    namespace: str\n    workload_kind: str  # Deployment | Job | CronJob\n    workload_name: str\n    labels: Dict[str, str] = {}\n    annotations: Dict[str, str] = {}\n    containers: List[ContainerSpec]\n    init_container_count: int = 0\n    sidecar_count: int = 0",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "InferenceResponse",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class InferenceResponse(BaseModel):\n    schema_version: str = Field(default=\"v1\")\n    pred_avg_power_w: float\n    pred_total_energy_j: Optional[float] = None\n    components: Optional[Dict[str, float]] = None\n    confidence: Optional[float] = None\n    notes: Optional[str] = None",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "predict_k8s",
+        "description": "predict_k8s",
+        "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"--encoder\", required=True)\n    p.add_argument(\"--model\", required=True)\n    p.add_argument(\"--input\", required=True, help=\"NDJSON from k8s_collect (one or many lines)\")\n    args = p.parse_args()\n    # reuse the encoder CLI to transform\n    import subprocess, tempfile, os\n    tmp = tempfile.NamedTemporaryFile(delete=False, suffix=\".parquet\")\n    tmp.close()",
+        "detail": "predict_k8s",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train_power",
+        "description": "train_power",
+        "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"--train\", required=True)  # ./data/train_rows.parquet\n    p.add_argument(\"--target\", choices=[\"avg_power_w\",\"energy_step_j\",\"total_energy_j\"], default=\"avg_power_w\")\n    p.add_argument(\"--out\", required=True)   # model path\n    p.add_argument(\"--neighbors\", type=int, default=5)\n    args = p.parse_args()\n    df = pd.read_parquet(args.train)\n    # features is an array column\n    X = np.stack(df[\"features\"].to_numpy())",
+        "detail": "train_power",
+        "documentation": {}
+    }
+]
