@@ -9,86 +9,6 @@
         "documentation": {}
     },
     {
-        "label": "client",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "client",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "watch",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "client",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "config",
-        "importPath": "kubernetes",
-        "description": "kubernetes",
-        "isExtraImport": true,
-        "detail": "kubernetes",
-        "documentation": {}
-    },
-    {
-        "label": "lru_cache",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "lru_cache",
-        "importPath": "functools",
-        "description": "functools",
-        "isExtraImport": true,
-        "detail": "functools",
-        "documentation": {}
-    },
-    {
-        "label": "list_and_emit_initial",
-        "importPath": "k8s_collect",
-        "description": "k8s_collect",
-        "isExtraImport": true,
-        "detail": "k8s_collect",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -130,6 +50,14 @@
         "description": "collections",
         "isExtraImport": true,
         "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
         "documentation": {}
     },
     {
@@ -234,6 +162,46 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "watch",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "kubernetes",
+        "description": "kubernetes",
+        "isExtraImport": true,
+        "detail": "kubernetes",
         "documentation": {}
     },
     {
@@ -449,51 +417,6 @@
         "description": "join_features_labels",
         "peekOfCode": "POD_FROM_RS = re.compile(r\"^(?P<base>.+)-[a-f0-9]{9,}-[a-z0-9]{5}$\")  # myapp-75b8db778-abcde\ndef canon_workload(kind: str, name: str) -> tuple[str, str]:\n    \"\"\"Return (canon_kind, canon_name) suitable to match Deployment features.\"\"\"\n    kind = (kind or \"\").strip()\n    name = (name or \"\").strip()\n    if kind == \"Deployment\":\n        return \"Deployment\", name\n    if kind == \"ReplicaSet\":\n        m = RS_HASH.match(name)\n        return (\"Deployment\", m.group(\"base\")) if m else (\"Deployment\", name)",
         "detail": "join_features_labels",
-        "documentation": {}
-    },
-    {
-        "label": "get_core_v1_api",
-        "kind": 2,
-        "importPath": "k8s_api",
-        "description": "k8s_api",
-        "peekOfCode": "def get_core_v1_api() -> client.CoreV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning CoreV1Api client.\")\n    return client.CoreV1Api()\n@lru_cache()\ndef get_apps_v1_api() -> client.AppsV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning AppsV1Api client.\")\n    return client.AppsV1Api()\n@lru_cache()",
-        "detail": "k8s_api",
-        "documentation": {}
-    },
-    {
-        "label": "get_apps_v1_api",
-        "kind": 2,
-        "importPath": "k8s_api",
-        "description": "k8s_api",
-        "peekOfCode": "def get_apps_v1_api() -> client.AppsV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning AppsV1Api client.\")\n    return client.AppsV1Api()\n@lru_cache()\ndef get_networking_v1_api() -> client.NetworkingV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning NetworkingV1Api client.\")\n    return client.NetworkingV1Api()\ndef list_ingress_in_namespace(namespace: str):",
-        "detail": "k8s_api",
-        "documentation": {}
-    },
-    {
-        "label": "get_networking_v1_api",
-        "kind": 2,
-        "importPath": "k8s_api",
-        "description": "k8s_api",
-        "peekOfCode": "def get_networking_v1_api() -> client.NetworkingV1Api:\n    _load_k8s_config()\n    logger.debug(\"Returning NetworkingV1Api client.\")\n    return client.NetworkingV1Api()\ndef list_ingress_in_namespace(namespace: str):\n    # Imports are INSIDE the function for robustness in the REPL environment\n    import json\n    from kubernetes import client, config\n    try:\n        # Attempt to load Kubernetes config (local or in-cluster)",
-        "detail": "k8s_api",
-        "documentation": {}
-    },
-    {
-        "label": "list_ingress_in_namespace",
-        "kind": 2,
-        "importPath": "k8s_api",
-        "description": "k8s_api",
-        "peekOfCode": "def list_ingress_in_namespace(namespace: str):\n    # Imports are INSIDE the function for robustness in the REPL environment\n    import json\n    from kubernetes import client, config\n    try:\n        # Attempt to load Kubernetes config (local or in-cluster)\n        try:\n            config.load_kube_config()\n        except config.ConfigException:\n            try:",
-        "detail": "k8s_api",
-        "documentation": {}
-    },
-    {
-        "label": "list_pods_in_namespace",
-        "kind": 2,
-        "importPath": "k8s_api",
-        "description": "k8s_api",
-        "peekOfCode": "def list_pods_in_namespace(namespace: str):\n    # Imports are INSIDE the function for robustness in the REPL environment\n    import json\n    from kubernetes import client, config\n    try:\n        # Load Kubernetes configuration\n        try:\n            config.load_kube_config()\n        except config.ConfigException:\n            try:",
-        "detail": "k8s_api",
         "documentation": {}
     },
     {
