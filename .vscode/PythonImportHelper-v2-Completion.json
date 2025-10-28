@@ -165,6 +165,30 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "client",
         "importPath": "kubernetes",
         "description": "kubernetes",
@@ -253,6 +277,14 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "InferenceRequest",
         "importPath": "models",
         "description": "models",
@@ -262,6 +294,14 @@
     },
     {
         "label": "ContainerSpec",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "InferenceRequest",
         "importPath": "models",
         "description": "models",
         "isExtraImport": true,
@@ -340,6 +380,47 @@
         "description": "joblib",
         "isExtraImport": true,
         "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "load",
+        "importPath": "joblib",
+        "description": "joblib",
+        "isExtraImport": true,
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "K8sEncoder",
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "isExtraImport": true,
+        "detail": "k8s_encode",
+        "documentation": {}
+    },
+    {
+        "label": "_flat_row",
+        "importPath": "k8s_encode",
+        "description": "k8s_encode",
+        "isExtraImport": true,
+        "detail": "k8s_encode",
         "documentation": {}
     },
     {
@@ -669,6 +750,69 @@
         "description": "app.predict_k8s",
         "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"--encoder\", required=True)\n    p.add_argument(\"--model\", required=True)\n    p.add_argument(\"--input\", required=True, help=\"NDJSON from k8s_collect (one or many lines)\")\n    args = p.parse_args()\n    # reuse the encoder CLI to transform\n    import subprocess, tempfile, os\n    tmp = tempfile.NamedTemporaryFile(delete=False, suffix=\".parquet\")\n    tmp.close()",
         "detail": "app.predict_k8s",
+        "documentation": {}
+    },
+    {
+        "label": "PredictOut",
+        "kind": 6,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "class PredictOut(BaseModel):\n    pred_energy_step_j: float\n    workload_kind: str\n    workload_name: str\n    namespace: str\n    spec_hash: str\n@app.post(\"/predict\", response_model=PredictOut)\ndef predict(ir: InferenceRequest):\n    row = _flat_row(ir.model_dump())\n    X, meta = enc.transform([row])",
+        "detail": "app.predict_service",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "def predict(ir: InferenceRequest):\n    row = _flat_row(ir.model_dump())\n    X, meta = enc.transform([row])\n    y = float(model.predict(X)[0])\n    m = meta.iloc[0].to_dict()\n    return PredictOut(\n        pred_energy_step_j=y,\n        workload_kind=m[\"workload_kind\"],\n        workload_name=m[\"workload_name\"],\n        namespace=m[\"namespace\"],",
+        "detail": "app.predict_service",
+        "documentation": {}
+    },
+    {
+        "label": "ENC_PATH",
+        "kind": 5,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "ENC_PATH = os.getenv(\"ENCODER_PATH\", \"/artifacts/encoder.joblib\")\nMOD_PATH = os.getenv(\"MODEL_PATH\",   \"/artifacts/knn_energy.joblib\")\napp = FastAPI()\nenc = K8sEncoder.load(ENC_PATH)\nmodel = load(MOD_PATH)\nclass PredictOut(BaseModel):\n    pred_energy_step_j: float\n    workload_kind: str\n    workload_name: str\n    namespace: str",
+        "detail": "app.predict_service",
+        "documentation": {}
+    },
+    {
+        "label": "MOD_PATH",
+        "kind": 5,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "MOD_PATH = os.getenv(\"MODEL_PATH\",   \"/artifacts/knn_energy.joblib\")\napp = FastAPI()\nenc = K8sEncoder.load(ENC_PATH)\nmodel = load(MOD_PATH)\nclass PredictOut(BaseModel):\n    pred_energy_step_j: float\n    workload_kind: str\n    workload_name: str\n    namespace: str\n    spec_hash: str",
+        "detail": "app.predict_service",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "app = FastAPI()\nenc = K8sEncoder.load(ENC_PATH)\nmodel = load(MOD_PATH)\nclass PredictOut(BaseModel):\n    pred_energy_step_j: float\n    workload_kind: str\n    workload_name: str\n    namespace: str\n    spec_hash: str\n@app.post(\"/predict\", response_model=PredictOut)",
+        "detail": "app.predict_service",
+        "documentation": {}
+    },
+    {
+        "label": "enc",
+        "kind": 5,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "enc = K8sEncoder.load(ENC_PATH)\nmodel = load(MOD_PATH)\nclass PredictOut(BaseModel):\n    pred_energy_step_j: float\n    workload_kind: str\n    workload_name: str\n    namespace: str\n    spec_hash: str\n@app.post(\"/predict\", response_model=PredictOut)\ndef predict(ir: InferenceRequest):",
+        "detail": "app.predict_service",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "app.predict_service",
+        "description": "app.predict_service",
+        "peekOfCode": "model = load(MOD_PATH)\nclass PredictOut(BaseModel):\n    pred_energy_step_j: float\n    workload_kind: str\n    workload_name: str\n    namespace: str\n    spec_hash: str\n@app.post(\"/predict\", response_model=PredictOut)\ndef predict(ir: InferenceRequest):\n    row = _flat_row(ir.model_dump())",
+        "detail": "app.predict_service",
         "documentation": {}
     },
     {
