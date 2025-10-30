@@ -712,7 +712,7 @@
         "kind": 2,
         "importPath": "app.kepler_labels",
         "description": "app.kepler_labels",
-        "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"--prom\", default=\"http://prometheus.n1.local\", help=\"Prometheus base URL\")\n    p.add_argument(\"--owner-source\", choices=[\"prom\",\"k8s\",\"auto\"], default=\"auto\",\n                   help=\"Where to get pod→owner mapping. 'auto' tries Prom first then K8s API. Default: k8s.\")\n    p.add_argument(\"--mode\", choices=[\"job\",\"window\"], default=\"window\")\n    p.add_argument(\"--start\", required=True)\n    p.add_argument(\"--end\", required=True)\n    p.add_argument(\"--out\", required=True)\n    p.add_argument(\"--step\", default=\"60s\")",
+        "peekOfCode": "def main():\n    p = argparse.ArgumentParser()\n    p.add_argument(\"--prom\", default=\"http://prometheus.lpt.local\", help=\"Prometheus base URL\")\n    p.add_argument(\"--owner-source\", choices=[\"prom\",\"k8s\",\"auto\"], default=\"auto\",\n                   help=\"Where to get pod→owner mapping. 'auto' tries Prom first then K8s API. Default: k8s.\")\n    p.add_argument(\"--mode\", choices=[\"job\",\"window\"], default=\"window\")\n    p.add_argument(\"--start\", required=True)\n    p.add_argument(\"--end\", required=True)\n    p.add_argument(\"--out\", required=True)\n    p.add_argument(\"--step\", default=\"60s\")",
         "detail": "app.kepler_labels",
         "documentation": {}
     },
